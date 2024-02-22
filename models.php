@@ -71,26 +71,14 @@
     <div class="container_models">
 
         <div class="model">
-            <a href="Models/TemplateOne.php">
-                <div class="templateStudent model_one"></div>
+            <a href="Models/TemplateA.php">
+                <div class="">Template A</div>
             </a>
         </div>
 
         <div class="model">
-            <a href="Models/TemplateTwo.php">
-                <div class="templateStudent model_two"></div>
-            </a>
-        </div>
-
-        <div class="model">
-            <a href="Models/TemplateThree.php">
-                <div class="templateStudent model_one"></div>
-            </a>
-        </div>
-
-        <div class="model">
-            <a href="Models/TemplateFour.php">
-                <div class="templateStudent model_two"></div>
+            <a href="Models/TemplateB.php">
+                <div class="">Template B</div>
             </a>
         </div>
     </div>

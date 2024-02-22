@@ -22,7 +22,8 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
             <a href="/"><img width=40 src="src/logo.svg" alt="logo" class="logo"></a>
             <a href="/">Accueil</a>
             <a href="dashboard.php">Tableau de bord</a>
-            <a href="models.php">Modèles de CVs</a>
+            <a href="models.php">Nos Modèles</a>
+            <a href="saves.php">Vos PDF</a>
             <a href="profil.php">Profil</a>
             <a href="logout.php">Déconnexion</a>
         </div>
