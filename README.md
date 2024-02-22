@@ -1,4 +1,4 @@
-# VOLT <img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="30"/>
+# VOLT <img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="40"/>
 
 ![PHP](https://a11ybadges.com/badge?logo=php) ![Laragon](https://a11ybadges.com/badge?logo=laragon) ![MySQL](https://a11ybadges.com/badge?logo=mysql) ![Puppeteer](https://a11ybadges.com/badge?logo=puppeteer)
 
