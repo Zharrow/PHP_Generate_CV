@@ -1,8 +1,8 @@
-# VOLT <img src="src/logo.svg">
+# VOLT <img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="30"/>
 
 ![PHP](https://a11ybadges.com/badge?logo=php) ![Laragon](https://a11ybadges.com/badge?logo=laragon) ![MySQL](https://a11ybadges.com/badge?logo=mysql) ![Puppeteer](https://a11ybadges.com/badge?logo=puppeteer)
 
-Web Application
+Web Application <br>
 🚀️ Generate CV online
 
 `HOW TO RUN THIS APP`
