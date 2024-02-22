@@ -1,3 +1,8 @@
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -83,7 +88,6 @@
 
     <div class="skills">
         <h2>Compétences</h2>
-        <!-- Ici, insérez les compétences sous forme de barres de progression ou d'icônes -->
     </div>
 
     <div class="experience">
@@ -113,25 +117,16 @@
 
     <div class="hobbies">
         <h2>Hobbies</h2>
-        <!-- Ici, utilisez des icônes ou des images pour représenter les hobbies -->
     </div>
 
     <form action="export.php" method="post">
-        <input type="hidden" name="action" value="generate_pdf">
+        <input type="hidden" name="export" value="generate_pdf">
+        <input type="hidden" name="page" value="page1">
         <button type="submit">Exporter en PDF</button>
     </form>
 
 
 
-    <?php
-    $url = 'http://localhost/Models/TemplateB.php';
-    $outputPath = '../Saves/TemplateB.pdf';
-
-    $command = "node generate-pdf.js '$url' '$outputPath'";
-
-    echo '<button>' . exec($command, $output, $return_var) . '</button>';
-
-    ?>
 
 </body>
 

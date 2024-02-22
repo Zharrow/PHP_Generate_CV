@@ -1,10 +1,8 @@
 <?php
-// Assurez-vous que la session est démarrée
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// Vérifier si l'utilisateur est connecté
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("location: ../index.php");
     exit;

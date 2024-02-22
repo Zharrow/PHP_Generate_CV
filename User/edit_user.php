@@ -1,16 +1,13 @@
 <?php
-// Assurez-vous que la session est démarrée
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// Vérifiez si l'utilisateur est connecté
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("location: ../index.php");
     exit;
 }
 
-// Récupérez les données de l'étude à partir de l'ID passé dans l'URL
 if (isset($_GET["UserID"])) {
     $userID = $_GET["UserID"];
 
@@ -47,7 +44,6 @@ if (isset($_GET["UserID"])) {
     <link rel="stylesheet" href="../CSS/edit_user.css">
 </head>
 <body>
-    <!-- Formulaire d'édition -->
     <form action="process_edit_user.php" method="post" enctype="multipart/form-data">
         <h3>Modifier votre profil</h3>
         <input type="hidden" name="UserID" value="<?php echo $user['UserID']; ?>">

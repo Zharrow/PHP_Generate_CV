@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter une Etude</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/add_study.css"> <!-- Assurez-vous que le chemin vers votre fichier CSS est correct -->
+    <link rel="stylesheet" href="../CSS/add_study.css">
 </head>
 <body>
     <form action="process_add_study.php" method="post" class="apple-style-form">

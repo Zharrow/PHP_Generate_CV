@@ -1,16 +1,13 @@
 <?php
-// Assurez-vous que la session est démarrée
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// Vérifiez si l'utilisateur est connecté
 if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     header("location: ../index.php");
     exit;
 }
 
-// Récupérez les données de l'étude à partir de l'ID passé dans l'URL
 if (isset($_GET["ExperienceID"])) {
     $experienceID = $_GET["ExperienceID"];
 
@@ -43,7 +40,7 @@ if (isset($_GET["ExperienceID"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editer une Experience</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/edit_experience.css"> <!-- Assurez-vous que le chemin vers votre fichier CSS est correct -->
+    <link rel="stylesheet" href="../CSS/edit_experience.css">
 </head>
 <body>
     <form action="process_edit_experience.php" method="post" class="apple-style-form">

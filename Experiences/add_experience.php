@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter une Experience</title>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/add_experience.css"> <!-- Assurez-vous que le chemin vers votre fichier CSS est correct -->
+    <link rel="stylesheet" href="../CSS/add_experience.css">
 </head>
 <body>
     <form action="process_add_experience.php" method="post" class="apple-style-form">

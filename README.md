@@ -1,4 +1,6 @@
-# VOLT <img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="40"/>
+# **VOLT**
+
+<img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="30"/>
 
 ![PHP](https://a11ybadges.com/badge?logo=php) ![Laragon](https://a11ybadges.com/badge?logo=laragon) ![MySQL](https://a11ybadges.com/badge?logo=mysql) ![Puppeteer](https://a11ybadges.com/badge?logo=puppeteer)
 
@@ -42,7 +44,7 @@ Web Application <br>
 ``This application is focused on User Experience.``<br>
 The user can modify and interact with all his data on the dashboard, then the data will be reported to the CVs. If he want to modify multiple CVs at the time, he just need to change the data on the dashboard<br>
 
-``Example :`` You are working at a company since 2020. You're old CVs says you are still working there, but now you want to edit them to say you leaved. You can edit the end date on the dashboard and that will update all your CVs models.
+``Exemple :`` You are working at a company since 2020. You're old CVs says you are still working there, but now you want to edit them to say you leaved. You can edit the end date on the dashboard and that will update all your CVs models.
 
 ---
 

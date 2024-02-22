@@ -29,7 +29,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->rowCount() > 0) {
             echo "Email déjà utilisé, veuillez en choisir un autre.";
         } else {
-            // Insérer le nouvel utilisateur
             $stmt = $conn->prepare("INSERT INTO users (lastname, firstname, email, phone, pwd) VALUES (?, ?, ?, ?, ?)");
             $stmt->execute([$lastname, $firstname, $email, $phone, $pwd]);
 
