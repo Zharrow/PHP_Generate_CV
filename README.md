@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # **VOLT**
 
 <img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="30"/>
+=======
+# VOLT <img style="position:absolute;right:25px;top:25px" src="src/logo.svg" width="30"/>
+>>>>>>> 82914ab3fd652ac548c4d45860a5c3423eeb8d0a
 
 ![PHP](https://a11ybadges.com/badge?logo=php) ![Laragon](https://a11ybadges.com/badge?logo=laragon) ![MySQL](https://a11ybadges.com/badge?logo=mysql) ![Puppeteer](https://a11ybadges.com/badge?logo=puppeteer)
 
